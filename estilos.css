@@ -1,0 +1,328 @@
+@font-face {
+    font-family: 'azonixregular';
+    src: url('fuentes/azonix-webfont.woff2') format('woff2'),
+         url('fuentes/azonix-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,300&family=PT+Sans+Narrow:wght@700&display=swap');
+body {
+	background-image: url(./imagenes/general-background.jpg);
+	background-size: cover;
+}
+
+h2 {
+	font-size: 40px;
+}
+h3 {
+	font-size: 30px;
+}
+main, footer{
+	font-family: 'Noto Sans', sans-serif;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+header {
+	margin-left: 60px;
+	display: inline-block;
+	width: 1180px;
+	height: 190px;
+	
+	opacity: 70%;
+	background-size: cover; 
+
+
+}
+main h2 {
+	color: #F2C411;
+}
+header h1 {
+	width: 250px;
+	height: 150px;
+}
+nav {
+	text-align: center;
+	
+}
+nav ul li{
+	display: inline-block;
+	margin: 5px 30px 10px 30px;
+}
+nav ul li a {
+	color: #4C2B86;
+	transition: all 1s ease-in;
+	font-family: 'azonixregular';
+	font-size: 25px;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	transition: all 0.5s ease-out;
+	font-size: 30px;
+	color: white;
+	text-decoration: none;
+}
+main {
+	width: 1200px;
+	height: 55%;
+	margin: 25px;
+	padding: 15px;
+}
+
+.mail_info-text {
+	width: 300px;
+	float: right;
+	display: inline-block;
+	font-size: 15px;
+	padding: 15px;
+}
+article h3 {
+	text-align: center;
+
+}
+aside {
+	text-align: center;
+}
+footer{
+	display: inline-block;
+}
+footer a {
+	font-size: 25px;
+	color: #4C2B86;
+	text-decoration: none;
+	float: right;
+	margin-top: 210px;
+	margin-right: 40px;
+	
+}
+footer a:hover {
+	color: #FFFFFF;
+	
+}
+footer img {
+	margin-left: 10px;
+	float: left;
+	width: 30%;
+}
+iframe {
+	transition: all	0.4s ease-in;
+	opacity: 0.5;
+	border-radius: 50px;
+}
+iframe:hover {
+	transition: all	0.4s ease-out;
+	opacity: 1;
+
+}
+
+.body-style {
+	border: solid 2px #ffffff;
+	border-radius: 5px;
+	width: 1280px;
+	height: 100%;
+	margin: auto;
+}
+.ax_logo__format {
+	margin-top: 45px;
+	display: inline-block;
+	background-image: url(./imagenes/ax_logo.png);
+	font-size: 0px;
+	
+}
+.ax_logo_format a{
+
+}
+.bar-menu {
+	display: inline-block;
+	margin-top: 70px;
+	float: right;
+	width: 700px;
+}
+.left_side {
+	float: left;
+}
+.left_side h2 {
+	text-align: center;
+}
+
+.left_side a{
+	font-weight: bold;
+	text-decoration: none;
+}
+.profile_photo {
+	display: inline-block;
+}
+.profile_photo-properties {
+	border: solid 5px #FFFFFF;
+	width: 100px;
+	height: 100px;
+	margin: 15px;
+	border-radius: 55px;
+
+
+}
+.profile_photo-properties:hover{
+	transition: all 0.5s ease-out;
+	border: solid 5px #4C2B84;
+}
+.mails {
+	display: inline-block;
+	padding: 20px;
+	background-color: #F9FEF4;
+	margin: 10px;
+	width:500px;
+	height: 140px;
+	border-radius: 25px;
+}
+.mail_info {
+	display: inline-block;
+}
+.mail_upload{
+	margin: auto;
+	width: 40%;
+	text-align: center;
+	vertical-align: middle;
+	
+}
+.mail_upload img{
+transition: all	0.3s ease-in;
+padding: 10px;
+width: 60%;
+}
+.mail_upload img:hover{
+transition: all	0.3s ease-out;
+padding: 10px;
+width: 80%;
+}
+.mail_upload p {
+	font-weight:bold;
+	font-size: 20px;
+	color: #FFFFFF;
+	padding: 10px;
+}
+
+.right_side{
+	float: right;
+	width:625px;
+	height: 703px;
+	border-radius: 25px;
+}
+
+.right_side h3{
+
+	font-size: 30px;
+	border-radius: 20px;
+	background-color: #F9FEF4;
+}
+
+.right_side img {
+
+	transition: all 1s ease-in;
+	width: 85%;
+	border: solid 10px #F9FEF4;
+	border-radius: 40px;
+}
+.right_side img:hover {
+	transition: all 1s ease-out;
+	width: 97%;
+}
+.notice {
+	padding: 20px;
+	background-image: url(./imagenes/inicio/notice_background.jpg);	
+	background-size: cover;
+	border-radius: 40px;
+}
+.notice_title {
+	font-size: 20px;
+}
+.notice_button {
+	display: block;
+	margin-top: 40px;
+	text-decoration: none;
+	background-color: #F9FEF4;
+	padding: 10px;
+	border-radius: 10px;
+}
+.notice_button:hover{
+	color: #ffffff;
+	transition: all 0.5s ease-out;
+	text-decoration: none;
+	background-color: blue;
+	padding: 10px;
+}
+
+						/* sobre nosotros*/
+
+.about_us-box {
+	display: inline-block;
+	width: 690px;
+	padding: 15px;
+}
+.about_us-box h2 {
+	text-align: center;
+}
+.about_us-box h3{
+	text-align: left	;
+}
+.about_us-text{
+	padding: 20px;
+	border-radius: 25px;
+	background-color: #F9FEF4;
+}
+.daniela_info {
+	display:inline-block;
+	transition: all	0.3s ease-in;
+	padding: 10px;
+	border-radius: 25px;
+	background-color: #F9FEF4;
+	height: 150px;
+}
+
+.daniela_info p {
+	float: right;
+	padding: 5px;
+	width: 65%;
+}
+.daniela_info b {
+	font-size: 20px;
+}
+
+}
+.daniela_info h4 {
+	display: inline-block;
+}
+.aside_container{
+	display: inline-block;
+	float: right;
+	
+	width: 450px;
+	height: 1000px;
+}
+.box_style {
+	
+	width: 100%;
+	height: 510px;
+	border-radius: 20px;
+}
+.box_style img {
+		margin-top: 50px;
+		width: 80%;
+}
+
+/* CONTACTO*/
+.contact_container {
+	text-align: center;	
+}
+.contact_container a {
+	color: #ffffff;
+	text-decoration: none;
+}
+.social_media-img {
+
+	transition: all	0.3s ease-in;
+	width: 5%;
+}
+.social_media-img:hover {
+	transition: all	0.3s ease-out;
+	width: 7%;
+}
